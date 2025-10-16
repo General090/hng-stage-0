@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/12324eab9b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <main>
+    <article data-testid="test-profile-card" class="profile-card">
+      <figure class="avatar-container">
+        <img
+          src="./assests/profile.jpg"
+          alt="profile photo"
+          data-testid="test-user-avatar"
+          class="avatar"
+        />
+      </figure>
+
+      <section class="profile-info">
+        <header>
+          <h2 data-testid="test-user-name">Gospel Onuoha</h2>
+        </header>
+
+        <p data-testid="test-user-bio">
+          A passionate Frontend Developer who loves building responsive and interactive user interfaces using modern web technologies.
+        </p>
+
+        <p>
+          Current Time (ms):
+          <span data-testid="test-user-time" id="user-time"></span>
+        </p>
+
+        <nav aria-label="social media links">
+          <ul data-testid="test-user-social-links" class="social-links">
+            <li><a href="https://x.com/gospel_kal" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+
+            <li><a href="https://github.com/General090" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github"><i class="fa-brands fa-github"></i></a></li>
+
+            <li><a href="https://www.linkedin.com/in/gospel-onuoha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
+        </nav>
+
+        <section>
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Coding</li>
+            <li>Reading</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Noise</li>
+            <li>Dishonesty</li>
+          </ul>
+        </section>
+      </section>
+    </article>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
