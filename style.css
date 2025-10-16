@@ -79,7 +79,10 @@
   .social-links a:hover,
   .social-links a:focus {
     color: #1e40af;
+    box-shadow: 0 0 8px rgba(37, 99, 235, 0.6);
+    border-radius: 6px;
     outline: none;
+    transition: box-shadow 0.2s ease, color 0.2s ease;
   }
   
   section ul {
