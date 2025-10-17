@@ -1,47 +1,44 @@
-# HNG Frontend Stage 0 – Profile Card
+# Profile Card Project
 
-This project is my submission for **HNG Internship Stage 0 (Frontend Track)**.  
-It’s a simple **Profile Card** built using **Semantic HTML**, **Modern CSS (Flexbox)**, and **Vanilla JavaScript**.
+# Live Demo
+- **Netlify Link:** https://yourname.netlify.app  
 
----
 
-## 🧠 Features
+# Project overview
+- Semantic HTML structure (article, section, figure, nav)  
+- Accessibility through keyboard navigation and focus styles 
+- Responsive layout using Flexbox and Media Queries 
+- Real-time timestamp updates using Date.now() 
+- Avatar that accepts both a URL or an uploaded image
+- Open social links in a new tab securely with rel="noopener noreferrer"
 
-- Semantic HTML structure (header, section, article, nav)
-- Responsive layout with Flexbox
-- Real-time timestamp in milliseconds using `Date.now()`
-- Avatar and social links with accessibility features
-- `data-testid` attributes for automated testing
 
----
+# Features
+- Displays accurate time in milliseconds (Date.now())
+- Responsive layout for mobile, tablet, and desktop
+- Accessible keyboard navigation and focus indication
+- Avatar renders from URL or uploaded image
+- Semantic HTML tags for structure and SEO
+- Social links open in new tab safely
+- Clear data-testid attributes for testing
 
-## 🧩 Acceptance Criteria Met
 
-✅ Semantic HTML  
-✅ `data-testid` attributes  
-✅ Accurate timestamp (`Date.now()`)  
-✅ Avatar with alt text  
-✅ Social links open in new tab  
-✅ Distinct hobbies/dislikes lists  
-✅ Responsive and accessible
+# How to Run Locally
 
----
+1. **Clone the repository**
+   git clone https://github.com/General090/hng-stage-0.git
 
-## 🚀 Live Demo
+2. **Navigate into the folder**
+   cd profile 
 
-🔗 **Live URL:** [https://yourusername.github.io/hng-profile-card](https://yourusername.github.io/hng-profile-card)
+3. **Open the project**
+   Open index.html in your browser directly, using go live 
 
----
 
-## 🧰 How to Run Locally
+# Data Test IDs
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/hng-profile-card.git
-
-# Navigate into the folder
-cd hng-profile-card
-
-# Open in your browser
-open index.html
-# or just double-click index.html
+- data-testid="test-user-avatar" → Avatar image
+- data-testid="test-user-time" → Real-time timestamp
+- data-testid="test-user-social-links" → Social links container
+- data-testid="test-user-hobbies" → Hobbies list
+- data-testid="test-user-dislikes" → Dislikes list
