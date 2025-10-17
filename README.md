@@ -1,7 +1,7 @@
 # Profile Card Project
 
 # Live Demo
-- **Netlify Link:** https://yourname.netlify.app  
+- **Netlify Link:** https://aesthetic-daifuku-f4d73b.netlify.app/  
 
 
 # Project overview
